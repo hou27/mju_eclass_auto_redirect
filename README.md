@@ -9,7 +9,7 @@
 
 아래 페이지로 드래그 앤 드랍(개발자 모드 on)
 
-[extensions_page](chrome://extensions)
+[extensions](chrome://extensions)
 
 ## Author
 
