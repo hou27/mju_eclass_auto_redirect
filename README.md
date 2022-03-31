@@ -1,4 +1,4 @@
-## Mbti
+## Mju Eclass Auto Redirect
 
 명지대학교 e-Learning System 로그인 시 불필요한 페이지 생략 후  
 바로 명지대 통합 로그인 창으로 리다이렉트해주는 chrome extension
