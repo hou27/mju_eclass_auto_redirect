@@ -7,7 +7,7 @@
 Download this repo
 
 Drag and Drop to page down below.  
-[extensions page](chrome://extensions/)
+[extensions_page](chrome://extensions/)
 
 ## Author
 
