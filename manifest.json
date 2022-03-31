@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "MJU Eclass Auto Re-Authentication",
+  "version": "0.1.0",
+  "description": "명지대학교 e-Learning System 자동 재로그인을 위한 툴",
+
+  "action": {
+    "default_icon": "icon/ico.png",
+    "default_title": "명지대 이클래스 재로그인",
+    "default_popup": "html/main.html"
+  },
+  "host_permissions": ["https://lms.mju.ac.kr/*", "https://sso1.mju.ac.kr/"],
+
+  "author": "hou27",
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "matches": ["https://lms.mju.ac.kr/*"],
+      "js": ["js/login.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
